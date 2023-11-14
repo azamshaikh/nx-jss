@@ -1,0 +1,27 @@
+Mon Nov 13 2023 17:53:05 GMT+0000 (Coordinated Universal Time): Application has thrown an uncaught exception and is terminated:
+Error: Cannot find module 'next'
+Require stack:
+- C:\home\site\wwwroot\server.js
+- C:\Program Files (x86)\iisnode\interceptor.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\home\site\wwwroot\server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+Mon Nov 13 2023 18:25:35 GMT+0000 (Coordinated Universal Time): Application has thrown an uncaught exception and is terminated:
+Error: Cannot find module 'C:\home\site\wwwroot\node_modules\next\dist\server\next.js'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:400:19)
+    at Module._findPath (node:internal/modules/cjs/loader:613:18)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:981:27)
+    at Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\home\site\wwwroot\server.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
